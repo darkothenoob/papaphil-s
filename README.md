@@ -1,6 +1,6 @@
 # papaphil-s
 # a simple pizza ordering program using raw_input and elif statements
-
+\n
 order_complete = False
 num_pizzas = 0
 num_wings = 0
