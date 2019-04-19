@@ -1,6 +1,5 @@
 # papaphil-s
 # a simple pizza ordering program using raw_input and elif statements
-\n
 order_complete = False
 num_pizzas = 0
 num_wings = 0
@@ -35,4 +34,4 @@ num_drinks = raw_input(“Ok, how many drinks would you like to order?” )
 print "Ok, you ordered %s drinks, what else would you like to order? " % num_drinks
 elif order == “5”:
 order_complete == True
-print “Ok, you ordered %s pizzas, %s wings, %s deserts, %s drinks, bringing your total to %s. Thanks for ordering!” % str(num_pizzas), str(num_wings), str(num_deserts), str(num_drinks), str(order_total)
+print “Ok, you ordered %s pizzas, %s wings, %s deserts, %s drinks, bringing your total to %s. Thanks for ordering!” % (str(num_pizzas), str(num_wings), str(num_deserts), str(num_drinks), str(order_total))
